@@ -1,0 +1,37 @@
+
+#wrapper{
+    /* 設定高度最小為100%, 如果內容區塊很多, 可以長大 */
+    min-height: 100%;
+    /* 位置設為relative, 作為footer區塊位置的參考 */
+    position: relative;
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.content{
+    min-height:  100%;
+    border: solid 1px rgba(0,0,0,0.1);
+    
+}
+
+.home_info{
+    text-align: center;
+    background-color: rgba(215,229,227,0.5);
+    width: 400px;
+    height: auto;
+    margin: 200px 1200px;
+    padding: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
